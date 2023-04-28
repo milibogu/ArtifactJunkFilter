@@ -12,7 +12,7 @@ if __name__ == "__main__":
     """2、在这里导入自己的圣遗物数据"""
     # mona: 从mona.json中导入圣遗物数据
     # good: 从good.json中导入圣遗物数据
-    convert_to_standard("good")
+    convert_to_standard("mona")
 
     """3、在这里对圣遗物进行评分"""
     rules = [1]  # 评分规则，目前就两个：0为不做任何调整，1为主属性圣遗物都必须正确的严苛版，后期可给出规则自由搭配
